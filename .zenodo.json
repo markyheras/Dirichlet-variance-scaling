@@ -1,0 +1,32 @@
+{
+  "title": "Hurst Exponent of the Error Term in the Dirichlet Divisor Problem: High-Precision Numerical Evidence from x ∈ [10³, 10¹⁵]",
+  "description": "<p>Python/Numba implementation for computing the Dirichlet divisor summatory error term<br>Δ(x) = D(x) − x(log x + 2γ − 1) over 6.5 million log-spaced points from x = 10³ to x = 10¹⁵.</p><p>Performs robust weighted least-squares regression of log(Var[Δ(x)]) versus log(log x) in sliding windows to estimate the Hurst exponent H of the error term fluctuation. Uses sample-size weighting, HC3-robust standard errors, Breusch–Pagan heteroskedasticity test, and produces high-resolution diagnostic plots (variance scaling, residuals, Q-Q).</p><p>Results consistently yield H ≈ 0.251267 ± 0.000133 (95% CI), providing strong numerical evidence on the fractal nature and long-range dependence of the divisor error term.</p>",
+  "version": "v1.0.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Perez, Kenneth P.",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0007-9546-0972"
+    },
+    {
+      "name": "Luzano, Warren I.",
+      "affiliation": "University of Science and Technology of Southern Philippines"
+    }
+  ],
+  "keywords": [
+    "Dirichlet divisor problem",
+    "divisor summatory function",
+    "error term Δ(x)",
+    "Hurst exponent",
+    "fractal analysis",
+    "long-range dependence",
+    "number theory",
+    "numerical analysis",
+    "Numba",
+    "robust regression",
+    "arithmetic functions"
+  ]
+}
