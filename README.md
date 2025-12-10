@@ -6,7 +6,7 @@ Kenneth P. Perez¹ · Warren I. Luzano²
 ² University of Science and Technology of Southern Philippines  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.XXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.17880291-blue)](https://doi.org/10.5281/zenodo.17880291)
 
 ## Overview
 
