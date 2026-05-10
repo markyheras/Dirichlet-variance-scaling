@@ -1,0 +1,58 @@
+cff-version: 1.0.0
+message: "If you use this software or its results, please cite it using the metadata below."
+type: software
+title: "Variance Scaling of the Error Term in the Dirichlet Divisor and Gauss Circle Problems: High-Precision Numerical Evidence from x in [10^3, 10^16]"
+version: "2.0.0"
+date-released: "2025-12-01"
+doi: "10.5281/zenodo.20109870"
+url: "https://doi.org/10.5281/zenodo.20109870"
+license: MIT
+authors:
+  - family-names: "Perez"
+    given-names: "Kenneth P."
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0007-9546-0972"
+  - family-names: "Luzano"
+    given-names: "Warren I."
+    affiliation: "University of Science and Technology of Southern Philippines"
+abstract: >-
+  Python/Numba implementation of a variance-scaling analysis of two classical error terms in
+  analytic number theory: the Dirichlet divisor error term Delta(x) = D(x) - x(log x + 2*gamma - 1)
+  and the Gauss circle error term P(x) = R(x) - pi*x. For each problem the error term is computed
+  exactly on a uniform log-grid of approximately 6.5 million points covering thirteen decades
+  x in [10^3, 10^16], and a weighted least-squares regression of log(Var[error]) on the
+  appropriate log-axis is fitted with HC3 heteroscedasticity-robust standard errors. The slope
+  is 2H, where H is the second-moment (variance-scaling) Hurst exponent. The Dirichlet pipeline
+  yields H = 0.251060 +/- 0.000120 with 95% robust CI [0.250825, 0.251295], descending
+  monotonically toward 1/4 from above as the upper limit of the fitted range grows from 10^8
+  to 10^16. A synthetic validation harness drives the same estimator over ground-truth signals
+  for H_true in {0.20, 0.23, 0.25, 0.28, 0.30} with 50 disjoint seeds per value and
+  inverse-variance pooling.
+keywords:
+  - "Dirichlet divisor problem"
+  - "Gauss circle problem"
+  - "divisor summatory function"
+  - "lattice point counting"
+  - "Hurst exponent"
+  - "variance scaling"
+  - "fractal analysis"
+  - "weighted least squares"
+  - "HC3 robust standard errors"
+  - "number theory"
+  - "analytic number theory"
+  - "numerical analysis"
+  - "Numba"
+repository-code: "https://github.com/markyheras/Dirichlet-variance-scaling"
+preferred-citation:
+  type: software
+  title: "Variance Scaling of the Error Term in the Dirichlet Divisor and Gauss Circle Problems"
+  authors:
+    - family-names: "Perez"
+      given-names: "Kenneth P."
+      orcid: "https://orcid.org/0009-0007-9546-0972"
+    - family-names: "Luzano"
+      given-names: "Warren I."
+  year: 2025
+  doi: "10.5281/zenodo.20109870"
+  url: "https://doi.org/10.5281/zenodo.20109870"
+  version: "2.0.0"
