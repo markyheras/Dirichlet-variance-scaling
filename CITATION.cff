@@ -1,7 +1,7 @@
 cff-version: 1.0.0
 message: "If you use this software or its results, please cite it using the metadata below."
 type: software
-title: "Variance Scaling of the Error Term in the Dirichlet Divisor and Gauss Circle Problems: High-Precision Numerical Evidence from x in [10^3, 10^16]"
+title: "Hurst exponent of the Dirichlet divisor error term: source code, numerical data, and supplementary figures"
 version: "2.0.0"
 date-released: "2025-12-01"
 doi: "10.5281/zenodo.20109870"
@@ -45,7 +45,7 @@ keywords:
 repository-code: "https://github.com/markyheras/Dirichlet-variance-scaling"
 preferred-citation:
   type: software
-  title: "Variance Scaling of the Error Term in the Dirichlet Divisor and Gauss Circle Problems"
+  title: "Hurst exponent of the Dirichlet divisor error term: source code, numerical data, and supplementary figures"
   authors:
     - family-names: "Perez"
       given-names: "Kenneth P."
